@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Hangman Game</title>
+
+</head>
+<body>
+
+
+<div class="flex-container flex-center">
+
+	<div class="header">
+
+		<h1>H A N G M A N</h1>
+
+	</div>
+
+	<div class ="dot-border width">
+
+		<div class="game-container">
+
+			<p>Press any key to get started!</p>
+
+			<p>Wins</p>
+			<p id="wins"></p>
+
+			<p>Current Word</p>
+			<p id="letters"></p>
+
+			<p id="guessesRemaining"></p>
+
+			<p>Letters Already Guessed</p>
+			<p id="alreadyGuessed"></p>
+
+			<p id="losses" class="hide" >You Lose, Try Again!</p>
+
+		</div>
+
+	</div>
+
+	<button class="button" onclick="reset();">Reset</button>
+
+	<div id="imageContainer" class="dot-border width hide">
+
+		<div class ="image-container">
+
+			<img id="answerImage" class="answerImage" src="">
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
