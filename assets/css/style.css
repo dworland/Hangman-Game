@@ -1,0 +1,44 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.flex-container {
+	padding: 0;
+  	margin: 0;
+  	display: flex;
+  	flex-flow: column;
+}
+
+.flex-center{
+	align-items: center;
+  	justify-content: center;
+}
+
+.header {
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+.dot-border{
+	border: dotted 2px white;
+}
+.hide{
+	display: none;
+}
+
+.width{
+	width: 35%;
+}
+
+.answerImage {
+	height: 200px;
+	width: 200px;
+}
+
+.button {
+	color: black;
+}
